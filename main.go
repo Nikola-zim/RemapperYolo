@@ -50,7 +50,6 @@ func reMapper(filePath string, fileName string, remapConfig map[int]int) error {
 		fmt.Fprintln(newFile, newLine)
 
 	}
-	log.Println("qwerqwer")
 	if err := scanner.Err(); err != nil {
 		return err
 	}
